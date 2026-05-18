@@ -1,0 +1,60 @@
+{
+    "access": "org",
+    "accessInformation": null,
+    "advancedSettings": null,
+    "apiToken1ExpirationDate": -1,
+    "apiToken2ExpirationDate": -1,
+    "appCategories": [
+    ],
+    "avgRating": 0,
+    "banner": null,
+    "categories": [
+    ],
+    "classification": null,
+    "contentStatus": "org_authoritative",
+    "created": 1707178196000,
+    "culture": "en-us",
+    "description": null,
+    "documentation": null,
+    "downloaded": false,
+    "extent": [
+    ],
+    "groupDesignations": null,
+    "guid": null,
+    "id": "d9806c760e7d4eb4af56af6fd711b794",
+    "industries": [
+    ],
+    "isOrgItem": true,
+    "languages": [
+    ],
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "licenseInfo": null,
+    "listed": false,
+    "modelIndex": 0,
+    "modified": 1762425022000,
+    "name": "TasksCSV.csv",
+    "numComments": 0,
+    "numRatings": 0,
+    "numViews": 0,
+    "orgId": "ypdMhhEhrtBXLtQv",
+    "owner": "fdc_admin_swca",
+    "properties": null,
+    "proxyFilter": null,
+    "scoreCompleteness": 16,
+    "screenshots": [
+    ],
+    "size": 2891451,
+    "snippet": null,
+    "spatialReference": null,
+    "subInfo": 0,
+    "tags": [
+    ],
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "title": "TaskCSV",
+    "type": "CSV",
+    "typeKeywords": [
+        "CSV"
+    ],
+    "url": null
+}

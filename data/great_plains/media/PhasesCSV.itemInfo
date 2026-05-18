@@ -1,0 +1,60 @@
+{
+    "access": "org",
+    "accessInformation": null,
+    "advancedSettings": null,
+    "apiToken1ExpirationDate": -1,
+    "apiToken2ExpirationDate": -1,
+    "appCategories": [
+    ],
+    "avgRating": 0,
+    "banner": null,
+    "categories": [
+    ],
+    "classification": null,
+    "contentStatus": "org_authoritative",
+    "created": 1707178176000,
+    "culture": "en-us",
+    "description": null,
+    "documentation": null,
+    "downloaded": false,
+    "extent": [
+    ],
+    "groupDesignations": null,
+    "guid": null,
+    "id": "11020e31823e401ba9bb4b6a1705447e",
+    "industries": [
+    ],
+    "isOrgItem": true,
+    "languages": [
+    ],
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "licenseInfo": null,
+    "listed": false,
+    "modelIndex": 4,
+    "modified": 1762425020000,
+    "name": "PhasesCSV.csv",
+    "numComments": 0,
+    "numRatings": 0,
+    "numViews": 0,
+    "orgId": "ypdMhhEhrtBXLtQv",
+    "owner": "fdc_admin_swca",
+    "properties": null,
+    "proxyFilter": null,
+    "scoreCompleteness": 16,
+    "screenshots": [
+    ],
+    "size": 2726452,
+    "snippet": null,
+    "spatialReference": null,
+    "subInfo": 0,
+    "tags": [
+    ],
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "title": "PhaseCSV",
+    "type": "CSV",
+    "typeKeywords": [
+        "CSV"
+    ],
+    "url": null
+}

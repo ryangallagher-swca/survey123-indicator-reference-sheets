@@ -1,0 +1,60 @@
+{
+    "access": "shared",
+    "accessInformation": null,
+    "advancedSettings": null,
+    "apiToken1ExpirationDate": -1,
+    "apiToken2ExpirationDate": -1,
+    "appCategories": [
+    ],
+    "avgRating": 0,
+    "banner": null,
+    "categories": [
+    ],
+    "classification": null,
+    "contentStatus": "org_authoritative",
+    "created": 1705613793000,
+    "culture": "en-us",
+    "description": "null",
+    "documentation": null,
+    "downloaded": false,
+    "extent": [
+    ],
+    "groupDesignations": null,
+    "guid": null,
+    "id": "b14a53d57bea490ab46f8227d0df2cc3",
+    "industries": [
+    ],
+    "isOrgItem": true,
+    "languages": [
+    ],
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "licenseInfo": null,
+    "listed": false,
+    "modelIndex": 3,
+    "modified": 1762425015000,
+    "name": "EmployeeCSV.csv",
+    "numComments": 0,
+    "numRatings": 0,
+    "numViews": 0,
+    "orgId": "ypdMhhEhrtBXLtQv",
+    "owner": "fdc_admin_swca",
+    "properties": null,
+    "proxyFilter": null,
+    "scoreCompleteness": 16,
+    "screenshots": [
+    ],
+    "size": 621240,
+    "snippet": null,
+    "spatialReference": null,
+    "subInfo": 0,
+    "tags": [
+    ],
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "title": "EmployeeCSV",
+    "type": "CSV",
+    "typeKeywords": [
+        "CSV"
+    ],
+    "url": null
+}

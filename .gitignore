@@ -1,0 +1,27 @@
+#Python virtual environments
+.venv/
+venv/
+env/
+
+#Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+#Logs/temp files
+*.log
+*.tmp
+
+#Survey media files (large binary assets, not needed in repo)
+data/*/media/
+
+output/
+
+.easyocr/
