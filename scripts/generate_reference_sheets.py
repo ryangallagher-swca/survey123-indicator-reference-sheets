@@ -1,6 +1,7 @@
 #this file takes ocr_output.json and generates two HTML reference sheets: one for Hydric Soil and one for Hydrology.
-#each indicator label is wrapped in <b> tags; description text is plain.
+#each indicator label is bold; description text uses small font size.
 #output is HTML suitable for pasting into Survey123 Connect XLSForm label cells.
+#uses span style syntax for Survey123 v3.13+ compatibility (no <h3>, <center>, <font size>, <body> tags).
 #overwrite-safe: existing files in the output folder are replaced on each run.
 
 from pathlib import Path
@@ -33,7 +34,7 @@ def write_reference_sheet(category, indicators, part=None):
 
     part_label = f" - Part {part}" if part is not None else ""
     title = f"{REGION_NAME} - {category} Reference Sheet{part_label}"
-    html_parts = [f"<h4>{escape_html(title)}</h4>"]
+    html_parts = [f'<span style="font-size:medium; font-weight:bold;">{escape_html(title)}</span><br><br>']
 
     for indicator in indicators:
         label = indicator.get("label", "").strip()
@@ -53,7 +54,7 @@ def write_reference_sheet(category, indicators, part=None):
         #preserve line breaks from the source text
         desc_html = desc_html.replace("\n", "<br>")
 
-        html_parts.append(f'<font size="2"><b>{escape_html(label)}</b><br>{desc_html}</font><br><br>')
+        html_parts.append(f'<span style="font-weight:bold;">{escape_html(label)}:</span><br><span style="font-size:small;">{desc_html}</span><br><br>')
 
     output_file.write_text("\n".join(html_parts), encoding="utf-8")
     print(f"Saved {category} sheet: {output_file}")
